@@ -20,7 +20,7 @@
 
 方法一：require hook
     
-创建 app.js：
+创建 app.ts：
     
     @hairColor
     class Person { }
@@ -125,7 +125,7 @@
 解决报错一：命令行配置
 
     命令行：
-    tsc --target ES5 --experimentalDecorators
+    tsc app.ts --target ES5 --experimentalDecorators
 
     🐽：注意，此方式命令行中不可输入需要编译的文件，会直接编译当前目录。
     
